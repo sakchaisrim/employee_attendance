@@ -82,7 +82,22 @@ class _RegisterScreenState extends State<RegisterScreen> {
                 const SizedBox(
                   height: 30,
                 ),
-                
+                SizedBox(
+                  height: 60,
+                  width: double.infinity,
+                  child: ElevatedButton(
+                    onPressed: () {},
+                    style: ElevatedButton.styleFrom(
+                        backgroundColor: Colors.redAccent,
+                        shape: RoundedRectangleBorder(
+                            borderRadius:
+                                BorderRadius.all(Radius.circular(20)))),
+                    child: const Text(
+                      "Register",
+                      style: TextStyle(fontSize: 20),
+                    ),
+                  ),
+                ),
               ],
             ),
           ),
