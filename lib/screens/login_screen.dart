@@ -78,9 +78,21 @@ class _LoginScreenState extends State<LoginScreen> {
                 const SizedBox(
                   height: 30,
                 ),
-                
-                const SizedBox(
-                  height: 20,
+                SizedBox(
+                  height: 60,
+                  width: double.infinity,
+                  child: ElevatedButton(
+                    onPressed: () {},
+                    style: ElevatedButton.styleFrom(
+                        backgroundColor: Colors.redAccent,
+                        shape: RoundedRectangleBorder(
+                            borderRadius:
+                                BorderRadius.all(Radius.circular(20)))),
+                    child: const Text(
+                      "LOGIN",
+                      style: TextStyle(fontSize: 20),
+                    ),
+                  ),
                 ),
                 TextButton(
                     onPressed: () {},
