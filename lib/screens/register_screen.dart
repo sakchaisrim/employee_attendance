@@ -45,7 +45,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
                   height: 20,
                 ),
                 Text(
-                  "ABC Company",
+                  "FAANG",
                   style: TextStyle(
                       fontSize: 25,
                       color: Colors.white,
@@ -110,7 +110,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
                               ),
                             ),
                     );
-                  }
+                  },
                 ),
               ],
             ),

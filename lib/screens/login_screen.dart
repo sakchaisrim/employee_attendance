@@ -42,7 +42,7 @@ class _LoginScreenState extends State<LoginScreen> {
                   height: 20,
                 ),
                 Text(
-                  "ABC Company",
+                  "FAANG",
                   style: TextStyle(
                       fontSize: 25,
                       color: Colors.white,

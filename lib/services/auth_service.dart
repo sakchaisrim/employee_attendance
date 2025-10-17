@@ -61,5 +61,4 @@ class AuthService extends ChangeNotifier {
   }
 
   User? get currentUser => _supabase.auth.currentUser;
-
 }
